@@ -8,7 +8,29 @@
   <title>⚖️ Unit Converter App ⚖️</title>
 </head>
 <body>
-  
+  <main class="container">
+    <div class="hero">
+      <h2 class="title">Metric/Imperial Unit Conversion</h2>
+      <div class="number">
+        <input class="input" type="text" name="input" id="input">
+      </div>
+      <button class="btn">Convert</button>
+    </div>
+    <div class="data">
+        <div class="card">
+          <h4 class="tlt">Length (Meter/Feet)</h4>
+          <p id="length" class="unit"></p>
+        </div>
+        <div class="card">
+          <h4 class="tlt">Volume (Liters/Gallons)</h4>
+          <p id="volume" class="unit"></p>
+        </div>
+        <div class="card">
+          <h4 class="tlt">Mass (Kilograms/Pounds)</h4>
+          <p id="mass" class="unit"></p>
+        </div>
+    </div>
+  </main>
 
   <script src="script.js"></script>
 </body>
